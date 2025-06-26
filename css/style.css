@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Comfortaa, Arial !important;
+}
+
+h2{
+    color: #0c75c0;
+    font-weight: 500;
+    font-size: 1.875rem;
+}
+
+/* =================== Home Page  ================ */
+
+
+/* =================== Header Section  ================ */
+header {
+    background-image: radial-gradient(rgb(12, 117, 192), rgb(3, 47, 78));
+    border-bottom-left-radius: 15%;
+    border-bottom-right-radius: 15%;
+    height: 95vh;
+}
+header nav{
+    background-image: linear-gradient(-45deg, rgb(12, 117, 192), rgb(3, 47, 78)) !important;
+    width: 85%;
+    box-shadow: rgb(190, 190, 190) 0.5px 0.5px 10px 0.5px;
+    top: 15px;
+    border-radius: 0px 20px;
+    z-index: 9999;
+}
+
+header nav .navbar-toggler:focus{
+    box-shadow: unset;
+}
+
+header nav .logo {
+    width: 65px;
+}
+
+header nav .dropdown-menu {
+    background-image: radial-gradient(rgb(12, 117, 192), rgb(3, 47, 78));
+    padding-right: 40px;
+    transition: 0.5s;
+}
+
+header nav .dropdown-menu a {
+    transition: 0.5s;
+}
+
+header nav a:hover {
+    background-color: transparent !important;
+    transition: 0.5s;
+    color: rgb(226, 222, 222) !important;
+    padding-left: 25px;
+}
+
+header .header-content img{
+    width: 90%;
+    display: block;
+    margin-bottom: 35px;
+}
+@media(max-width: 767px){
+    header .header-content{
+        margin-top: 50px !important;
+    }
+}
+/* =================== Header Section  ================ */
+
+
+/* =================== Services Section  ================ */
+
+.services .inner .layer{
+    background: linear-gradient(rgba(0,0,0,0.6) , rgba(0,0,0,0.6));
+    top: 150%;
+    bottom: 0;
+    transition: 0.5s;
+}
+
+.services .inner:hover .layer{
+    top: 0;
+}
+
+
+/* =================== Services Section  ================ */
+
+
+
+
+
+
+/* =================== Home Page  ================ */
