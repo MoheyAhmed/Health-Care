@@ -71,6 +71,20 @@ header .header-content img{
 /* =================== Header Section  ================ */
 
 
+/* =================== Who We Are Section  ================ */
+
+.who-we-are , .testimonial{
+    background-color: #f8f8f8;
+}
+
+.who-we-are .inner img{
+    width: 85%;
+}
+
+/* =================== Who We Are Section  ================ */
+
+
+
 /* =================== Services Section  ================ */
 
 .services .inner .layer{
@@ -83,7 +97,6 @@ header .header-content img{
 .services .inner:hover .layer{
     top: 0;
 }
-
 
 /* =================== Services Section  ================ */
 
