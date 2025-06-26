@@ -150,6 +150,10 @@ footer .social i{
 footer .social i:hover{
     color: rgb(200, 186, 186) !important;
 }
+
+.copyright{
+    background-image: radial-gradient(#025088, #021320);
+}
 /* =================== Footer Section  ================ */
 
 
