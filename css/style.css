@@ -8,7 +8,7 @@ body {
     font-family: Comfortaa, Arial !important;
 }
 
-h2{
+h2 {
     color: #0c75c0;
     font-weight: 500;
     font-size: 1.875rem;
@@ -24,7 +24,8 @@ header {
     border-bottom-right-radius: 15%;
     height: 95vh;
 }
-header nav{
+
+header nav {
     background-image: linear-gradient(-45deg, rgb(12, 117, 192), rgb(3, 47, 78)) !important;
     width: 85%;
     box-shadow: rgb(190, 190, 190) 0.5px 0.5px 10px 0.5px;
@@ -33,11 +34,11 @@ header nav{
     z-index: 9999;
 }
 
-header nav .navbar-toggler:focus{
+header nav .navbar-toggler:focus {
     box-shadow: unset;
 }
 
-header nav .logo {
+header nav .logo{
     width: 65px;
 }
 
@@ -54,30 +55,32 @@ header nav .dropdown-menu a {
 header nav a:hover {
     background-color: transparent !important;
     transition: 0.5s;
-    color: rgb(226, 222, 222) !important;
+    color: rgb(200, 186, 186) !important;
     padding-left: 25px;
 }
 
-header .header-content img{
+header .header-content img {
     width: 90%;
     display: block;
     margin-bottom: 35px;
 }
-@media(max-width: 767px){
-    header .header-content{
+
+@media(max-width: 767px) {
+    header .header-content {
         margin-top: 50px !important;
     }
 }
+
 /* =================== Header Section  ================ */
 
 
 /* =================== Who We Are Section  ================ */
 
-.who-we-are , .testimonial{
+/* .who-we-are , .testimonial{
     background-color: #f8f8f8;
-}
+} */
 
-.who-we-are .inner img{
+.who-we-are .inner img {
     width: 85%;
 }
 
@@ -87,18 +90,67 @@ header .header-content img{
 
 /* =================== Services Section  ================ */
 
-.services .inner .layer{
-    background: linear-gradient(rgba(0,0,0,0.6) , rgba(0,0,0,0.6));
+.services {
+    background-color: #f8f8f8;
+}
+
+.services .inner .layer {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
     top: 150%;
     bottom: 0;
     transition: 0.5s;
 }
 
-.services .inner:hover .layer{
+.services .inner:hover .layer {
     top: 0;
 }
 
 /* =================== Services Section  ================ */
+
+
+
+/* =================== Testimonial Section  ================ */
+
+.testimonial .inner {
+    /* background-color: #f8f8f8 !important; */
+    background: linear-gradient(139deg, rgba(255, 48, 91, 1) 22%, rgba(241, 241, 241, 1) 0%);
+    width: 80%;
+}
+
+.testimonial .inner img {
+    left: 20%;
+    top: -20px;
+}
+
+
+/* =================== Testimonial Section  ================ */
+
+
+/* =================== Footer Section  ================ */
+
+footer{
+    background-image: radial-gradient(rgb(12, 117, 192), rgb(3, 47, 78));
+}
+
+
+footer img{
+    width: 65px;
+}
+footer a{
+transition: 0.5s;
+}
+footer a:hover{
+    padding-left: 25px;
+    color: rgb(200, 186, 186) !important;
+}
+footer .social i{
+    transition: 0.5s;
+    cursor: pointer;
+}
+footer .social i:hover{
+    color: rgb(200, 186, 186) !important;
+}
+/* =================== Footer Section  ================ */
 
 
 
