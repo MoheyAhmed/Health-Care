@@ -154,6 +154,16 @@ footer .social i:hover{
 .copyright{
     background-image: radial-gradient(#025088, #021320);
 }
+
+@media(max-width:767px){
+    footer{
+        text-align: center;
+    }
+
+    footer .links i{
+        display: none;
+    }
+}
 /* =================== Footer Section  ================ */
 
 
