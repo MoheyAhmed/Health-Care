@@ -181,3 +181,12 @@ header.first-aid-section .header-content img{
 }
 
 /* =================== First Aid Page  ================ */
+
+/* .swiper {
+  width: 600px;
+  height: 300px;
+} */
+
+.swiper-slide .card{
+    height: 100%;
+}
