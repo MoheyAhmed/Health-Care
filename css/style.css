@@ -24,7 +24,7 @@ header {
     background-image: radial-gradient(rgb(12, 117, 192), rgb(1, 32, 53));
     border-bottom-left-radius: 15%;
     border-bottom-right-radius: 15%;
-    height: 95vh;
+    min-height: 95vh;
 }
 
 header nav {
@@ -196,6 +196,18 @@ header.first-aid-section .header-content img{
 }
 
 /* =================== Pharnacy Page  ================ */
+
+
+/* =================== Hospital Page  ================ */
+
+
+@media screen and (max-width : 767px){
+    .patient-centered .patient-centered-care{
+        padding-top: 0px !important;
+    }
+}
+
+/* =================== Hospital Page  ================ */
 
 /* .swiper {
   width: 600px;
