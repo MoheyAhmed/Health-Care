@@ -7,7 +7,9 @@
 body {
     font-family: Comfortaa, Arial !important;
 }
-
+.blue-colored{
+    color: #0c75c0
+}
 h2 {
     color: #0c75c0;
     font-weight: 500;
@@ -182,6 +184,19 @@ header.first-aid-section .header-content img{
 
 /* =================== First Aid Page  ================ */
 
+/* =================== Pharnacy Page  ================ */
+
+.pharmacies-section img{
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.pharmacies-section img:hover{
+    scale: 1.2;
+}
+
+/* =================== Pharnacy Page  ================ */
+
 /* .swiper {
   width: 600px;
   height: 300px;
@@ -190,3 +205,4 @@ header.first-aid-section .header-content img{
 .swiper-slide .card{
     height: 100%;
 }
+
